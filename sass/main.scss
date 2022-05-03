@@ -1,0 +1,29 @@
+// utils
+@import "./utils/variables";
+
+//vendors
+@import "./vendors/modern-normalize";
+@import "./vendors/visually-hidden";
+
+// base styles
+@import "./base/reset";
+@import "./base/base";
+@import "./base/main-styles";
+
+// layouts styles
+@import "./layouts/header";
+@import "./layouts/footer";
+
+
+// components
+@import "./components/logo";
+@import "./components/fundamentals";
+@import "./components/loyal-customers";
+@import "./components/modal";
+@import "./components/portfolio";
+@import "./components/team";
+@import "./components/we-do";
+@import "./components/buttons";
+
+
+

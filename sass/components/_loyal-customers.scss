@@ -1,0 +1,39 @@
+.loyal-customers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.loyal-customers-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.loyal-customer {
+    margin-right: 30px;
+
+}
+.loyal-customer:last-child {
+    margin-right: 0;
+}
+
+.customers-site {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+
+    fill: var(--icon-color);
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+                    
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.customers-site:hover,
+.customers-site:focus {
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
+}
